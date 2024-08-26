@@ -7,6 +7,7 @@ import InputField from "@/components/InputField";
 import ReactNativeModal from "react-native-modal";
 import CustomButton from "@/components/CustomButton";
 import { Alert, Image, ScrollView, Text, View } from "react-native";
+import { fetchAPI } from "@/lib/fetch";
 
 
 const SignUp = () => {
@@ -60,6 +61,16 @@ const SignUp = () => {
         });
 
       if (completeSignUp.status === 'complete') {
+        await fetchAPI('/(api)/user', {
+          method : "POST",
+          body: JSON.stringify({
+            name: form.name,
+            email: form.email,
+            clerkId: completeSignUp.createdUserId,
+          }),
+        });
+
+
         await setActive({ session: completeSignUp.createdSessionId })
         setVerification({ ...verification, state: "success" })
       } else {
