@@ -136,20 +136,20 @@ export default function Page() {
 
   useEffect(() => {
     const requestLocation = async () => {
-      let { status } = await Location.requestForegroundPermissionsAsync(); 
+      let { status } = await Location.requestForegroundPermissionsAsync();
 
-      if (status !== "granted"){
-        setHasPermissions(false)
-        return; 
+      if (status !== "granted") {
+        setHasPermissions(false);
+        return;
       }
-      
+
       let location = await Location.getCurrentPositionAsync();
-      
+
       const address = await Location.reverseGeocodeAsync({
         latitude: location.coords?.latitude!,
         longitude: location.coords?.longitude!,
-      }); 
-      
+      });
+
       setUserLocation({
         // latitude: location.coords.latitude,
         // longitude: location.coords.longitude,
@@ -158,9 +158,9 @@ export default function Page() {
         address: `${address[0].name}, ${address[0].region}`,
       });
     };
-      
-      requestLocation();
-  }, []) 
+
+    requestLocation();
+  }, []);
 
   return (
     <SafeAreaView className="bg-general-500">
@@ -205,6 +205,7 @@ export default function Page() {
                 <Image source={icons.out} className="w-4 h-4" />
               </TouchableOpacity>
             </View>
+            
             <GoogleTextInput
               icon={icons.search}
               containerStyle="bg-white shadow-md shaodw-neutral-300"
