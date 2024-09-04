@@ -74,7 +74,7 @@ const GoogleTextInput = ({
         )}
         textInputProps={{
           placeholderTextColor: "gray",
-          placeholder: initialLocation ?? "Where do you want to go?",
+          placeholder: initialLocation ?? "Where the fuck you wanna go?",
         }}
       />
     </View>
