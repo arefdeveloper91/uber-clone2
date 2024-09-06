@@ -1,17 +1,18 @@
-import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
-import * as SplashScreen from 'expo-splash-screen';
-import { useEffect } from 'react';
 import 'react-native-reanimated';
-
+import { useEffect } from 'react';
+import { Stack } from 'expo-router';
+import { useFonts } from 'expo-font';
+import { LogBox } from 'react-native';
 import { tokenCache } from '@/lib/auth';
-
-
+import * as SplashScreen from 'expo-splash-screen';
 import { ClerkProvider, ClerkLoaded } from '@clerk/clerk-expo'
+
 
 const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY!;
 
 SplashScreen.preventAutoHideAsync();
+
+LogBox.ignoreLogs(["Clerk:"]);
 
 export default function RootLayout() {
   const [loaded] = useFonts({
