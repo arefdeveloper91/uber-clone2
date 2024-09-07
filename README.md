@@ -10,60 +10,49 @@ The Ryde or Uber-clone is a React Native-based mobile application that mimics th
 
 # User Authentication (Clerk):
 
-Secure and scalable user authentication with Clerk.
-Support for multiple authentication methods including email, password, and social logins (Google, Facebook, etc.).
-Account management features such as profile updates, password resets, and two-factor authentication.
+- Secure and scalable user authentication with Clerk.
+- Support for multiple authentication methods including email, password, and social logins (Google, Facebook, etc.).
+- Account management features such as profile updates, password resets, and two-factor authentication.
 
 # Location and Navigation (Google Maps APIs):
 
-Real-time location tracking using Google Maps.
-Display of available drivers and user location on the map.
-Route suggestions, distance calculations, and estimated time of arrival (ETA).
-Integration of location-based features like pickup and drop-off point selection.
+- Real-time location tracking using Google Maps.
+- Display of available drivers and user location on the map.
+- Route suggestions, distance calculations, and estimated time of arrival (ETA).
+- Integration of location-based features like pickup and drop-off point selection.
 
 # Payment Processing (Stripe):
 
-Seamless and secure payments with Stripe.
-Support for multiple payment methods including credit/debit cards, digital wallets, etc.
-Automated fare calculation based on distance and time.
-Invoice generation and transaction history tracking.
+- Seamless and secure payments with Stripe.
+- Support for multiple payment methods including credit/debit cards, digital wallets, etc.
+- Automated fare calculation based on distance and time.
+- Invoice generation and transaction history tracking.
 
 # Database Management (NeonDB):
 
-Cloud-based database with NeonDB for managing user, driver, and ride data.
-Real-time data synchronization and offline support.
-Efficient data handling with support for complex queries and relationships.
+- Cloud-based database with NeonDB for managing user, driver, and ride data.
+- Real-time data synchronization and offline support.
+- Efficient data handling with support for complex queries and relationships.
 
 # Styling and UI (TailwindCSS):
 
-Modern and responsive UI with TailwindCSS.
-Predefined and custom styles for a consistent and visually appealing design.
-Mobile-first approach to ensure smooth performance on all devices.
+- Modern and responsive UI with TailwindCSS.
+- Predefined and custom styles for a consistent and visually appealing design.
+- Mobile-first approach to ensure smooth performance on all devices.
+- 
 # Screenshots
-
-# Landing Pages
- <img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Landing%20Page%201.jpg"> <br>
- <img src = "https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Landing%20Page%202.jpg"><br> 
- <img src = "https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Landing%20Page%203.jpg"><br>
- 
- # Sign-Up Page
- <img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Sign%20Up%20Interface.jpg"><br>
- 
- # Landing Pages 
- <img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Home%20Page.jpg"><br>
-<img src= "https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Home%20Page%20After%20Booking%20Ride.jpg"><br>
-
-# Ride Selection Page
-<img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Ride%20Selection%20Page.jpg"> 
-
-# Payment Interface
-<img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Payment%20Interface%20.jpg"> 
-
-# Confirmation Page
-<img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Payment%20Confirm%20Page.jpg"> 
-
-# Profile Page
-<img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Profile%20Page.jpg">
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 200px;">
+ <h2> Landing Page </h2><br><p align="center" ><img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Landing%20Page%201.jpg" style="width: 320px; height: 700px;">
+ <img src = "https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Landing%20Page%202.jpg" style="width: 320px; height: 700px;"> 
+ <img src = "https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Landing%20Page%203.jpg" style="width: 320px; height: 700px;"></p>
+ <h2> Sing-Up & Home Screen Page </h2><br> <p align="center" ><img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Sign%20Up%20Interface.jpg" style="width: 320px; height: 700px;">
+ <img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Home%20Page.jpg" style="width: 320px; height: 700px;">
+<img src= "https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Home%20Page%20After%20Booking%20Ride.jpg" style="width: 320px; height: 700px;"></p>
+<h2> Book Ride & Confirm Ride Page </h2><br> <p align="center" ><img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Ride%20Selection%20Page.jpg" style="width: 320px; height: 700px;"> 
+<img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Payment%20Interface%20.jpg" style="width: 320px; height: 700px;"> 
+<img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Payment%20Confirm%20Page.jpg" style="width: 320px; height: 700px;"></p> 
+<h2> Profile Page </h2><br><p align="center" ><img src="https://github.com/arushsingh03/uber-clone/blob/main/assets/screenshots/Profile%20Page.jpg" style="width: 320px; height: 700px;"></p>
+</div>
 
 # Tech Used
  ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
