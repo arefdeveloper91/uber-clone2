@@ -1,5 +1,5 @@
 <div align="center">
-      <h1> <img src="https://cdn-icons-png.flaticon.com/128/4277/4277508.png"><br/>wuber</h1>
+      <h1> <img src="https://cdn-icons-png.flaticon.com/128/4277/4277508.png"><br/>Ryde seu novo app de transporte</h1>
      </div>
 
 # Description
