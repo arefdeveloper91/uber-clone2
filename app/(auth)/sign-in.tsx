@@ -47,19 +47,19 @@ const SignIn = ()  => {
                 <View className="relative w-full h-[250px]">
                     <Image 
                         source={images.signUpCar} className="z-0 w-full h-[250px]"/>
-                        <Text className="text-2xl text-black font-JakartaSemiBold absolute bottom-5 left-5">Welcome 👋</Text>
+                        <Text className="text-2xl text-black font-JakartaSemiBold absolute bottom-5 left-5">Bem Vindo 👋</Text>
                 </View>
                 <View className="p-5">
                     <InputField 
                         label="Email"
-                        placeholder="Enter Your Email"
+                        placeholder="Entre com seu Email"
                         icon={icons.email}
                         value={form.email}
                         onChangeText={(value) => setform({ ...form, email: value })}
                     />
                     <InputField 
                         label="Password"
-                        placeholder="Enter Your Password"
+                        placeholder="Entre com o seu Password"
                         icon={icons.lock}
                         secureTextEntry={true}
                         value={form.password}
@@ -78,7 +78,7 @@ const SignIn = ()  => {
                     href="/sign-up"
                     className="text-lg text-center text-general-200 mt-10"
                     >
-                        <Text>Don't have an account?{" "}</Text>
+                        <Text>Ainda nao tem conta?{" "}</Text>
                         <Text className="text-primary-500">Sign Up</Text>
                     </Link>
                 </View>
