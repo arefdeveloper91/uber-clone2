@@ -86,5 +86,5 @@ Install the project dependencies using npm:
 Expo Go mobile app after configuring  
 
       
-<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
+
     
