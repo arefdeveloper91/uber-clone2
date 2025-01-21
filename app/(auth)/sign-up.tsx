@@ -126,7 +126,7 @@ const SignUp = () => {
             href="/sign-in"
             className="text-lg text-center text-general-200 mt-6"
           >
-            <Text>Already have an account?{" "}</Text>
+            <Text>Voce ainda nao tem conta?{" "}</Text>
             <Text className="text-primary-500">LogIn</Text>
           </Link>
         </View>
